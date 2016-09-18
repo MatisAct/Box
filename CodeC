@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+void main(void)
+{
+char c;
+printf("Nhap vao 1 ki tu: ");
+scanf("%c", &c);
+if (c >= 'a' && c <= 'z') 
+{
+c = c -32; //doi thanh chu in hoa
+printf("Ki tu hoa la: %c.\n", c);
+}
+else
+printf("Ki tu ban vua nhap la: %c.\n", c);
+getch();
+}
