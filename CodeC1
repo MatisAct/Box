@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+   unsigned char choi;
+    int a,b;
+  do{  printf("nhap vao bang cuu chuong ban muon in :");
+    scanf("%d",&a);
+    for (b=0;b<=10;b++)
+        printf("\n%d*%d=%d",a,b,a*b);
+        printf("\nBan co muontiep tuc? (Y/N)\n");
+        choi = getch();
+}
+
+ while (choi == 'y' || choi == 'Y');
+}
