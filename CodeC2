@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a11,a12,a13,a14,a21,a22,a23,a24,a31,a32,a33,a34,a41,a42,a43,a44,D;
+    printf("|a11 a12 a13 a14|");
+    printf("\n|a21 a22 a23 a24|");
+    printf("\n|a31 a32 a33 a34|");
+    printf("\n|a41 a42 a43 a44|\n");
+    printf("nhap vao cac gia tri cua ma tran 4 theo thu tu tren:\n");
+
+
+    scanf("%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d  ",&a11,&a12,&a13,&a14,&a21,&a22,&a23,&a24,&a31,&a32,&a33,&a34,&a41,&a42,&a43,&a44);
+
+
+    printf("ma tran ban vua nhap la :\n");
+    printf("|%d  %d  %d  %d|",a11,a12,a13,a14);
+    printf("\n|%d  %d  %d  %d|",a21,a22,a23,a24);
+    printf("\n|%d  %d  %d  %d|",a31 ,a32 ,a33 ,a34);
+    printf("\n|%d  %d  %d  %d|",a41 ,a42 ,a43 ,a44);
+    printf("\nma tran cap 4 tren co dinh thuc:%d",D=a11*a22*a33+a12*a23*a31+a13*a21*a32-a31*a22*a13-a32*a23*a11-a33*a21*a12);
+
+}
