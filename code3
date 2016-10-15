@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,c;
+    char choi;
+     do
+     {c=1;
+    printf("nhap vao so can tinh giai thua:");
+    scanf("%d",&a);
+    for (b=1;b<=a;b++)
+        c*=b;
+        printf("giai thua cua %d la :%d",a,c);
+
+         printf("\nBan co muontiep tuc? (Y/N)\n");
+              choi = getch();
+
+}
+
+ while (choi == 'y' || choi == 'Y');
+}
