@@ -3,4 +3,4 @@ code
 
 
 
-<img src="http://imgur.com/a/KzW2J">
+<img src="https://upload.wikimedia.org/wikipedia/en/e/ea/GO-logo.png">
