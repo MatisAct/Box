@@ -19,7 +19,7 @@ code
 
 
 |Operator|	Description|
-|----------------------|
+|---------|------------|
 |=|	Equal|
 |<>|	Not equal. Note: In some versions of SQL this operator may be written as !=|
 |>	|Greater than|
