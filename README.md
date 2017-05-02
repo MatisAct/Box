@@ -1,31 +1,6 @@
-# Box
-code
-
-
-
-<img src="https://upload.wikimedia.org/wikipedia/en/e/ea/GO-logo.png">
-
-
-
->Mục lục:
-
-[1. Mục 1](#b)
-
-
->Nội dung:
-
-<b name="b"></b>
-1. mục 1
-
-
-|Operator|	Description|
-|---------|------------|
-|=|	Equal|
-|<>|	Not equal. Note: In some versions of SQL this operator may be written as !=|
-|>	|Greater than|
-|<	|Less than|
-|>=	|Greater than or equal|
-|<=	|Less than or equal|
-|BETWEEN	|Between an inclusive range|
-|LIKE|	Search for a pattern|
-|IN	|To specify multiple possible values for a column|
+|Math.floor|	Math.ceil|	Math.round	|Math.trunc|
+|----------|-------------|--------------|----------|
+|3.1	|3|	4|	3|	3|
+|3.6	3	|4|	4|	3|
+|-1.1	|-2|	-1|	-1|	-1|
+|-1.6	|-2|	-1|	-2|	-1|
