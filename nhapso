@@ -1,0 +1,21 @@
+#include"stdio.h"
+#include"conio.h"
+int main()
+{
+	int a,n;
+	nhaplai:
+	printf("nhap vao mot so :");
+	scanf("%d",&n);
+	if (0<n&&n<1000)
+	{
+	printf("so ban vua nhap la:%d",n);
+	}
+	else
+	{
+	printf("ban vua nhap so vuot qua pham vi, de nghi nhap lai!\n");
+	goto nhaplai;	
+	}
+}
+	
+	
+	
