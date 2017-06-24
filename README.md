@@ -1,6 +1,3 @@
-|Math.floor|	Math.ceil|	Math.round	|Math.trunc|
-|----------|-------------|--------------|----------|
-|3.1	|3|	4|	3|	3|
-|3.6	3	|4|	4|	3|
-|-1.1	|-2|	-1|	-1|	-1|
-|-1.6	|-2|	-1|	-2|	-1|
+#include"string.h"
+strlen(biến)// đếm số phần tử của biến
+đối với nhập mảng char , dùng gets
